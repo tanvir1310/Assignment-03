@@ -3,9 +3,271 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- tailwind cdn -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- daisy ui cdn -->
+   <!-- style css -->
+
+ 
+   
   <title>Document</title>
 </head>
-<body>
-  <h1>Hi Tanvir</h1>
+<body class="font-manrope">
+  <!-- Hero -->
+  <section class="hero flex justify-center pt-14 pb-24 max-sm:pt-8 max-sm:pb-10">
+    <div class="flex-1 max-w-[1170px] lg:mx-[40px] mx-[10px]">
+      <div class="max-w-[572px] mx-auto">
+        <img src="assets/banner.png"  sizes="(max-width: 479px) 100vw, (max-width: 665px) 86vw, 572px" srcset="assets/banner-p-500.png 500w, assets/banner.png 572w">
+      </div>
+      <div class="max-w-[1084px] mx-auto my-6">
+        <div class="lg:text-center lg:text-[#212121] lg:font-manrope lg:text-[64px] lg:font-extrabold lg:leading-[72px] text-[28px] leading-[32px] text-center font-extrabold text-[#212121]">A barn house of this design has a striking appearance</div>
+      </div>
+      <div class="max-w-[972px] mx-auto">
+        <div class="lg:text-center text-center lg:text-[#494949] text-[#494949] lg:font-manrope font-manrope lg:text-[16px] lg:font-medium lg:leading-[26px] text-[14px] leading-[24px]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</div>
+      </div>
+      <div class=" flex justify-center  items-start mt-8">
+        <a href="#" class="lg:text-black text-black lg:bg-[#abef5f80] bg-[#abef5f80] lg:bg-no-repeat bg-no-repeat bg-[url('../assets/arrow-up-btn.png')] lg:bg-[center_right_1rem] bg-[center_center_1rem] lg:rounded-[32px] rounded-[32px] lg:py-[14px] py-[14px] lg:px-[24px] px-[24px] lg:pr-[64px] pr-[64px] lg:font-manrope font-manrope lg:text-[20px] text-[20px] lg:font-bold font-bold lg:leading-[28px] leading-[28px] text-center bg-[75%] max-sm:flex-1">View Details</a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about bg-gray-200 justify-center py-24 flex overflow-hidden max-sm:py-16">
+    <div class="about-container lg:flex-1 lg:justify-between lg:max-w-[1170px] lg:mx-[40px] lg:flex max-sm:flex-col max-sm:mx-[10px]">
+
+      <div class="about-info flex-1 max-w-[560px] relative">
+        <div class="about-arrow-content flex max-sm:justify-center max-sm:items-start">
+          <div class="about-arrow-main bg-white rounded-3xl px-4 py-2 flex">
+            <img mx: class="image-2 mr-2" src="assets/right-arrow.png">
+            <div class="text-block text-[#494949] font-manrope text-lg font-bold leading-6">About Us</div>
+          </div>
+        </div>
+        <div class="about-heading mt-8">
+          <div class="abo-heading text-[#212121] font-manrope text-4xl font-bold leading-12 max-sm:text-center max-sm:text-2xl max-sm:leading-8">We design thoughtful, liveable spaces</div>
+        </div>
+        <div class="about-para mt-6 mb-8 sm:mt-4 sm:mb-6">
+          <div class="about-paragraph text-[#494949] font-manrope text-lg leading-7 max-sm:text-center max-sm:text-sm max-sm:leading-6">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</div>
+        </div>
+        <div class="about-card">
+          <div class="about-card-block bg-white rounded-xl max-sm:justify-start items-center mb-6 p-6 flex max-sm:mb-4 max-sm:p-5">
+            <div class="about-card-img w-16 h-16 mr-6 max-sm:min-w-[40px] max-sm:min-h-[40px]" src="image_source.jpg" alt="Card image"><img src="assets/commercial.png" ></div>
+            <div class="about-card-info max-w-[308px]">
+              <div class="about-card-head mb-2.5">
+                <div class="about-card-heading text-[#494949] font-manrope text-xl font-extrabold leading-7">Commercial</div>
+              </div>
+              <div class="about-card-text text-[#737373] font-manrope text-lg font-medium leading-7">The barn house captivates with its blend of rustic charm and modern.</div>
+            </div>
+          </div>
+          <div class="about-card-block bg-white rounded-xl justify-start items-center mb-6 p-6 flex max-sm:mb-4 max-sm:p-5">
+            <div class="about-card-img w-16 h-16 mr-6 max-sm:min-w-[40px] max-sm:min-h-[40px]"><img src="assets/residential.png" ></div>
+            <div class="about-card-info max-w-[308px]">
+              <div class="about-card-head mb-2.5">
+                <div class="about-card-heading text-[#494949] font-manrope text-xl font-extrabold leading-7">Residential</div>
+              </div>
+              <div class="about-card-text text-[#737373] font-manrope text-lg font-medium leading-7">The barn house captivates with its blend of rustic charm and modern.</div>
+            </div>
+          </div>
+        </div><img src="assets/direction.png"  class="direction max-w-[23%] absolute inset-[-10%_auto_auto_-10%] max-sm:top-[-5%] max-sm:left-[18%]">
+      </div>
+
+      <div class="about-image flex-1 max-w-[573px] max-sm:mt-6"><img src="assets/Rectangle.png" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 45vw, (max-width: 1279px) 46vw, 573px" srcset="assets/Rectangle.png 500w, assets/Rectangle.png 574w" alt="" class="image max-w-full" src="image_source.jpg" alt="Image">
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- work sec -->
+   
+  <section class="work bg-gray-200 pb-[100px] ">
+    <div class="work-container flex justify-center mx-10 mx-[40px] max-sm:mx-[10px]">
+      <div class="work-content flex-1 max-w-[1170px]">
+        <!-- same content -->
+        <div class="work-head-content">
+
+          <div class="about-arrow-content justify-center flex max-sm:justify-center max-sm:items-start">
+            <div class="about-arrow-main bg-white rounded-3xl px-4 py-2 flex">
+              <img mx: class="image-2 mr-2" src="assets/right-arrow.png">
+              <div class="text-block text-[#494949] font-manrope text-lg font-bold leading-6">How we works</div>
+            </div>
+          </div>
+          
+
+          <div class="work-content-01 flex justify-center items-start mb-6 mt-4">
+            <div class="text-block text-[#212121] font-manrope font-bold text-[40px] leading-[48px] max-sm:text-[24px] max-sm:leading-[32px]">Our Works Process</div>
+          </div>
+          <div class="work-content-02 flex justify-center items-start max-w-[678px] mx-auto">
+            <div class="body-01 text-[#494949] text-center font-manrope font-normal text-[16px] leading-6 max-sm:text-[14px] max-sm:leading-[20px]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</div>
+          </div>
+        </div>
+        <!-- same content end -->
+        <div class="work-card-content grid grid-cols-4 max-sm:grid-cols-1 gap-6 mt-8 place-items-start max-sm:place-items-center">
+          <div class="work-content-card bg-[#e7c1d3] rounded-lg max-w-[275px] p-6">
+            <div class="work-content-03 block"><img src="assets/concept.png" ></div>
+            <div class="work-content-04 my-2 block">
+              <div class="sub-head-01 text-[#1c1c1c] font-manrope font-extrabold text-[20px] leading-[28px]">Concept</div>
+            </div>
+            <div class="work-content-05 block">
+              <div class="body-01 text-[#494949] text-left font-manrope font-normal text-[16px] leading-6 max-sm:text-[14px] max-sm:leading-[20px]  body-01  text-left">The barn house captivates with its blend of rustic charm and modern.</div>
+            </div>
+          </div>
+          <div class="work-content-card bg-[#e7c1d3] rounded-lg max-w-[275px] p-6 _01 work-content-card _01 bg-[#efda6e]">
+            <div class="work-content-03 block"><img src="assets/flow-chart.png" ></div>
+            <div class="work-content-04 my-2 block">
+              <div class="sub-head-01 text-[#1c1c1c] font-manrope font-extrabold text-[20px] leading-[28px]">Design Process</div>
+            </div>
+            <div class="work-content-05 block">
+              <div class="body-01 text-[#494949] text-left font-manrope font-normal text-[16px] leading-6 max-sm:text-[14px] max-sm:leading-[20px] ">The barn house captivates with its blend of rustic charm and modern.</div>
+            </div>
+          </div>
+          <div class="work-content-card  rounded-lg max-w-[275px] p-6 _02 work-content-card _02 bg-[#a4dac3]">
+            <div class="work-content-03 block"><img src="assets/vision.png" ></div>
+            <div class="work-content-04 my-2 block">
+              <div class="sub-head-01 text-[#1c1c1c] font-manrope font-extrabold text-[20px] leading-[28px]">Supervision</div>
+            </div>
+            <div class="work-content-05 block">
+              <div class="body-01 text-[#494949] text-left font-manrope font-normal text-[16px] leading-6 max-sm:text-[14px] max-sm:leading-[20px] ">The barn house captivates with its blend of rustic charm and modern.</div>
+            </div>
+          </div>
+          <div class="work-content-card  rounded-lg max-w-[275px] p-6 _03 work-content-card _03 bg-[#77aaea]">
+            <div class="work-content-03 block"><img src="assets/budget-planning.png" ></div>
+            <div class="work-content-04 my-2 block">
+              <div class="sub-head-01 text-[#1c1c1c] font-manrope font-extrabold text-[20px] leading-[28px]">Budget Planning</div>
+            </div>
+            <div class="work-content-05 block">
+              <div class="body-01 text-[#494949] text-left font-manrope font-normal text-[16px] leading-6 max-sm:text-[14px] max-sm:leading-[20px] ">The barn house captivates with its blend of rustic charm and modern.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- portfolio -->
+
+  <section class="portfolio pt-[100px] pb-[100px] flex justify-center max-sm:pt-10 max-sm:pb-10">
+    <div class="portfolio-container  max-w-[1170px] mx-[40px] max-sm:mx-[10px]">
+
+      <!-- same content  -->
+      <div class="work-head-content">
+
+        <div class="about-arrow-content justify-center flex max-sm:justify-center max-sm:items-start">
+          <div class="about-arrow-main bg-[#ABEF5F] rounded-3xl px-4 py-2 flex">
+            <img mx: class="image-2 mr-2" src="assets/right-arrow.png">
+            <div class="text-block text-[#494949] font-manrope text-lg font-bold leading-6">Explore our Latest works</div>
+          </div>
+        </div>
+        
+
+        <div class="work-content-01 flex justify-center items-start mb-6 mt-4">
+          <div class="text-block text-[#212121] font-manrope font-bold text-[40px] leading-[48px] max-sm:text-[24px] max-sm:leading-[32px]">Our Latest Portfolio</div>
+        </div>
+        <div class="work-content-02 flex justify-center items-start max-w-[678px] mx-auto">
+          <div class="body-01 text-[#494949] text-center font-manrope font-normal text-[16px] leading-6 max-sm:text-[14px] max-sm:leading-[20px]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</div>
+        </div>
+      </div>
+      <!-- same content end -->
+
+      <div class="mt-16 max-sm:mt-8">
+        <div class=" flex justify-between gap-6 mb-6 max-sm:flex-col">
+          <div class="div-block-2 flex gap-6 border border-[#e9e9e9] rounded-[16px] flex-1 max-w-[772px] p-6 max-sm:flex-col max-sm:p-5">
+            <div class="div-block-4 flex-1 max-w-[260px]"><img src="assets/img1.png"  class="image-2"></div>
+            <div class="div-block-5 flex-1 max-w-[440px]">
+              <div class="port-text-01 text-[#494949] font-manrope font-extrabold text-[24px] leading-8">Commercial</div>
+              <div class="div-block-6 mt-4 mb-5">
+                <div class="port-pera font-manrope font-medium text-[16px] leading-[26px]">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</div>
+              </div>
+              <div class="view-button flex justify-start items-center gap-2">
+                <div class="viewe-btn font-manrope font-extrabold text-[20px] leading-[26px]">View Details</div>
+                <img src="assets/arrow-up-btn.png"  class="Image description">
+              </div>
+            </div>
+          </div>
+          <div class="div-block-3 border border-[#e9e9e9] rounded-[16px] flex-1 max-w-[374px] p-6"><img src="assets/img2.png"  class="image-2"></div>
+        </div>
+        <div class="iv-block-7 flex gap-6 max-sm:flex-col">
+          <div class="div-block-3 border border-[#e9e9e9] rounded-[16px] flex-1 max-w-[274px] p-6 max-sm:max-w-full"><img src="assets/img3.png"  class="image-2 image-2 object-cover rounded-[12px] w-[100%] h-[100%]" src="your-image-source-here" alt="Image description"></div>
+          <div class="div-block-2-copy flex gap-6 border border-[#e9e9e9] rounded-[16px] flex-1 max-w-[573px] p-6 max-sm:max-w-full max-sm:flex-col max-sm:p-5">
+            <div class="div-block-4 flex-1 max-w-[260px]">
+              <img src="assets/img4.png"  class=" image-2 object-cover rounded-[12px] w-[100%] h-[100%]" src="your-image-source-here" alt="Image description">
+            </div>
+            <div class="div-block-5 flex-1 max-w-[440px]">
+              <div class="port-text-01 text-[#494949] font-manrope font-extrabold text-[24px] leading-8">
+                Commercial
+              </div>
+              <div class="div-block-6 mt-4 mb-5">
+                <div class="port-pera font-manrope font-medium text-[16px] leading-[26px]">
+                  The barn house captivates with its blend of rustic charm and modern.
+                </div>
+              </div>
+              <div class="view-button flex justify-start items-center">
+                <div class="viewe-btn font-manrope font-extrabold text-[20px] leading-[26px]">
+                  View Details
+                </div>
+                <img src="assets/arrow-up-btn.png"  class="image ml-[10px] " src="your-image-source-here" alt="Image description">
+
+              </div>
+            </div>
+          </div>
+          <div class="div-block-3 border border-[#e9e9e9] rounded-[16px] flex-1 max-w-[274px] p-6 max-sm:max-w-full"><img src="assets/img5.png"  class="image-2 object-cover rounded-[12px] w-[100%] h-[100%]" src="your-image-source-here" alt="Image description"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- contact -->
+
+  <section class="contact flex justify-center bg-cover bg-no-repeat bg-[url('../assets/bg01.png')] pt-[100px] pb-[100px] overflow-hidden max-sm:pt-10 max-sm:pb-10">
+    <div class="contact-container flex-1 max-w-[970px] mx-[40px] max-sm:mx-[10px]">
+
+            <!-- same content  -->
+            <div class="work-head-content">
+
+              <div class="about-arrow-content justify-center flex max-sm:justify-center max-sm:items-start">
+                <div class="about-arrow-main bg-[#ABEF5F] rounded-3xl px-4 py-2 flex">
+                  <img mx: class="image-2 mr-2" src="assets/right-arrow.png">
+                  <div class="text-block text-[#494949] font-manrope text-lg font-bold leading-6">Let’s Connect</div>
+                </div>
+              </div>
+              
+      
+              <div class="work-content-01 flex justify-center items-start mb-6 mt-4">
+                <div class="text-block text-[#212121] font-manrope font-bold text-[40px] leading-[48px] max-sm:text-[24px] max-sm:leading-[32px]">Let’s Discuss Next Project</div>
+              </div>
+              <div class="work-content-02 flex justify-center items-start max-w-[678px] mx-auto">
+                <div class="body-01 text-[#494949] text-center font-manrope font-normal text-[16px] leading-6 max-sm:text-[14px] max-sm:leading-[20px]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</div>
+              </div>
+            </div>
+            <!-- same content end -->
+
+
+      <div class="contact-form-01 mt-8">
+        <div class="w-form">
+          <form id="email-form" name="email-form" data-name="Email Form">
+
+            <div class="contact-form-02 grid grid-cols-2 gap-6 max-sm:grid-cols-1">
+              <input class="text-field border border-white rounded-full h-16 mb-0 pt-5 pb-5 pl-5 w-input" maxlength="256" placeholder="First Name*" type="text" >
+              <input class="text-field border border-white rounded-full h-16 mb-0 pt-5 pb-5 pl-5 w-input" maxlength="256" placeholder="Last Name*" type="text" >
+              <input class="text-field border border-white rounded-full h-16 mb-0 pt-5 pb-5 pl-5 w-input" maxlength="256" placeholder="Phone Number*" type="text" >
+              <input class="text-field border border-white rounded-full h-16 mb-0 pt-5 pb-5 pl-5 w-input" maxlength="256" placeholder="Email Number*" type="text" >
+            </div>
+
+            <div class="contact-form-03 my-6 flex">
+              <textarea placeholder="Write your message here" maxlength="5000" id="field" name="field" data-name="Field" class="textarea flex-1 w-input textarea border border-white rounded-2xl min-h-[240px] pt-5 pl-5 width-100%"></textarea>
+            </div>
+
+            <div class="contact-form-04 flex">
+              <input type="submit" data-wait="Please wait..." class="submit-button w-button submit-button flex-1 text-black bg-[#abef5f] bg-no-repeat bg-[url('../assets/blck-arrow.png')] bg-[58%] rounded-2xl h-14 font-manrope font-extrabold text-[20px] leading-[28px] max-sm:bg-[76%]" value="Send Mail">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
 </body>
 </html>
